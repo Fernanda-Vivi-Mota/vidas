@@ -1,0 +1,142 @@
+.btn{
+    border: none;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+}
+
+.progress {
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+.bar {
+    height: 20px;
+    background-color: #4caf50;
+    max-inline-size:100% ;
+}
+
+.balao {
+    position: absolute;
+    top: 250px;
+    left: 70%;
+    width: 350px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 60px 60px 60px 0px;
+    border: 1px solid gray ;
+}
+
+#container {
+  padding-top: 80px;
+  padding-left: 25%;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.barraBarrinha1{
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    margin-left: 530px;
+    margin-top: 20px;
+    margin-right:10px ;
+    
+}
+
+.barraBarrinha2{
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    margin-left: 850px;
+    margin-top: 20px;
+ 
+
+}
+
+
+
+#gif img{
+    position: absolute;
+    width: 35%;
+    top: 200px;
+    left: 35%;
+    
+    height: auto;
+}
+
+#estado{
+    position: absolute;
+    top: 50px;
+    left: 1300px;
+    width: 250px;
+    background-color: rgb(49, 147, 238);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.emoji{
+    font-size: 3em;
+}
+
+#gameOver{
+position: absolute;
+top: 25px;
+width: 98%;
+height: 70%;
+background-color: black;
+opacity: 80%;
+color: white;
+font-size: 50px;
+text-align: center;
+padding-top: 10%;
+
+}
+
+.sessao{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 450px;
+    height: 520px;
+    border: solid 2px pink;
+    border-radius: 10px;
+    
+
+}
+
+.elementos{
+    width: 450px;
+    padding: 10px;
+    
+}
+
+#vidas{
+    font-size: 2em;
+}
+
+.humor h2{
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    background-color: rgb(30, 59, 223);
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#humor{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    background-color: rgb(223, 30, 165);
+    width: 150px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}

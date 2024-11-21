@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagoshi</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body> 
+    <div id="estado"></div>
+   <div class="humor">
+    <h2>Humor</h2>
+    </div> 
+   <div id="humor"></div>
+ 
+        <section class="barraBarrinha1">
+                <div class="barrinha1">
+                    <h2>Fome</h2>
+                    <div class="progress">
+                        <div id="fomeBar" class="bar"></div>
+                    </div>
+                 </div>
+    
+    
+        
+    
+        <div class="barrinha2">
+            <h2>Disposição</h2>
+            <div class="progress">
+                <div id="disposicaoBar" class="bar"></div>
+            </div>
+        </div>
+
+    </section>
+        
+    <section class="barraBarrinha2">
+        <div class="barrinha3">
+            <h2>Rotina de Cuidados</h2>
+            <div class="progress">
+                <div id="cuidadosBar" class="bar"></div>
+            </div>
+        </div>
+
+        <div class="barrinha4">
+            <h2>Sono</h2>
+            <div class="progress">
+        <div id="sonoBar" class="bar"></div>
+            </div>
+        </div>
+
+    </section>
+        
+         
+
+    <div id="gif">
+    <img id="imagem" src="bichinho.gif" alt="imagem">
+    </div>
+
+    
+   
+<section class="sessao">
+<div class="elementos">
+    <button class="btn" onclick="alimentarMaca()"> <span class="emoji">🍎</span></button>
+    <button class="btn" onclick="alimentarSorvete()"> <span class="emoji">🍨</span></button>
+    <button class="btn" onclick="alimentarMacarrao()"> <span class="emoji">🍝</span></button> 
+    <button class="btn" onclick="alimentarBurguer()"> <span class="emoji">🍔</span></button>  
+</div>
+
+<div class="elementos">
+    <button class="btn" onclick="descansarSofa()"> <span class="emoji">🛋️</span></button>
+    <button class="btn" onclick="dormir()"> <span class="emoji">😴</span></button>
+    <button class="btn" onclick="descansarCama()"> <span class="emoji">🛏️</span></button> 
+    <button class="btn" onclick="descansarCadeira()"> <span class="emoji">🪑</span></button>  
+</div>
+
+
+
+<div class="elementos">
+    <button class="btn" onclick="tomarBanho()"> <span class="emoji">🛁</span></button>
+    <button class="btn" onclick="tomarDucha()"> <span class="emoji">🚿</span></button>
+    <button class="btn" onclick="escovarDentes()"> <span class="emoji">🪥</span></button> 
+    <button class="btn" onclick="lavarMaos()"> <span class="emoji">🧻</span></button>  
+</div>
+
+<div class="elementos">
+    <button class="btn" onclick="viajar()"> <span class="emoji">✈️</span></button>
+    <button class="btn" onclick="ouvirMusica()"> <span class="emoji">🎧</span></button>
+    <button class="btn" onclick="ler()"> <span class="emoji">📖</span></button> 
+    <button class="btn" onclick="jogar()"> <span class="emoji">🎮</span></button>  
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="vidas">
+   <span id="vida"></span>
+  
+  </div>
+
+ 
+  <div id="gameOver"  style="display: none;" >
+    <h1>Game Over!!!</h1>
+  </div>
+
+
+<div class="balao">
+
+<div id="container">
+    <script src="script.js"></script>
+</div>
+
+</body>
+</html>
